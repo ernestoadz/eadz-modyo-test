@@ -65,7 +65,7 @@ const actualUserName = computed(() => {
   }
 });
 
-//if the name was not saved, I send the form with the new name and store it in the local storage and pinia (vuex).
+//if the name was not saved, I send the form with the new name and store it in the local storage pinia (vuex).
 const submitForm = () => {
   store.setuserName(userName);
   if (typeof window !== "undefined") {
